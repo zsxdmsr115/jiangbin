@@ -1,0 +1,14 @@
+键名                                        值                                                 					  案例
+food:"菜的编号":ips     访问的IP地址( set)    						 {"192.168.20.222"}
+food:"菜的编号":praise  点赞数( string )      						 20
+food:"菜的编号":visited 当前这道菜被访问的次数( string)   				 20
+food:"ip":foods        这个ip访问过的菜的集合( sorted set  )       时间戳 1, 时间戳 2, 时间戳 3,时间戳 4,时间戳 5
+
+ zrevrange food:0:0:0:0:0:0:0:1:foods 0 100 withscores
+ --反转
+
+
+
+java.util.Date.getTime()  -> 
+redis-server.exe 
+

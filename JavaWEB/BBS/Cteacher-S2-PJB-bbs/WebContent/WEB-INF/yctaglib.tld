@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+	version="2.1">
+
+	<description>hyycinfo tag lib</description>
+	<display-name>ycinfo core</display-name>
+	<tlib-version>1.1</tlib-version>
+	<short-name>yc</short-name>
+	<uri>http://www.hyycinfo.com/taglib/c</uri>
+
+	
+	
+	
+	<tag>
+		<name>pageBar</name>
+		<tag-class>com.yc.tag.PageBarTag</tag-class>
+		<body-content>JSP</body-content>
+
+		<attribute>
+			<name>page</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+	</tag>
+
+
+
+</taglib>

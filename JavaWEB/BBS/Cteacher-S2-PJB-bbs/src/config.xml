@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dbconfig>
+ <db id="1">
+ <driver>com.mysql.jdbc.Driver</driver>
+ 	<url>jdbc:mysql://47.106.66.89:3306/Cteacher-S2-PJB-bbs</url>
+ 	<user>demo</user>
+ 	<password>a</password>
+</db>
+ 
+ <db id="2">
+ 	<driver>com.mysql.jdbc.Driver</driver>
+ 	<url>jdbc:mysql://localhost:3306/db_exam</url>
+ 	<user>demo</user>
+ 	<password>a</password>
+ 	
+ </db>
+</dbconfig>
