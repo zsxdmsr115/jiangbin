@@ -79,39 +79,6 @@ public class Game2 {
 
 	}
 	//人
-/*	private static int  show(Scanner input) {
-		System.out.println("请出拳:1.剪刀 2.石头 3.布 (输入相应数字):");
-		 int show =  input.nextInt();
-		 switch(show){
-		 case 1:
-				System.out.println("你出拳:剪刀");
-				break;
-			case 2:
-				System.out.println("你出拳:石头");
-				break;
-			case 3:
-				System.out.println("你出拳:布");
-				break;
-		 }
-		 return show;
-	}
-	
-  //机
-	private static int computerShow(String name){
-		Random r=new Random();
-		int show=r.nextInt(3)+1;
-		switch(show){
-		case 1:
-			System.out.println(name+"出拳:剪刀");
-			break;
-		case 2:
-			System.out.println(name+"出拳:石头");
-			break;
-		case 3:
-			System.out.println(name+"出拳:布");
-			break;
-		}
-		return show;
-	}*/
+
 	
 }

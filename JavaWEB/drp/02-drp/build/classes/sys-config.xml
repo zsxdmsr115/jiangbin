@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<db-info>
+		<driver-name>com.mysql.jdbc.Driver</driver-name>
+		<url>jdbc:mysql://49.233.186.146:3306/drp</url>
+		<user-name>jiangbin</user-name>
+		<password>12345678</password>
+	</db-info>
+</config>

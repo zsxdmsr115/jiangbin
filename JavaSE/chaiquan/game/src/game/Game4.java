@@ -98,6 +98,9 @@ public class Game4 {
 		case 3:
 			System.out.println(username + "³öÈ­:²¼");
 			break;
+		default:
+			
+			break;
 		}
 		return show;
 	}
